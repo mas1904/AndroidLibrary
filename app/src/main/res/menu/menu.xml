@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mainmenu" >
+
+    <item android:title="@string/login"
+        android:id="@+id/menu_login"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info_black_24dp" />
+    <item android:title="@string/settings"
+        android:id="@+id/menu_settings"
+        android:enabled="false"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_manage" />
+    <item android:title="Item"
+        android:id="@+id/menu_side"
+        android:icon="@drawable/ic_menu_share"
+        app:showAsAction="always" />
+</menu>

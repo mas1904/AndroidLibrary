@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Wypozyczalnia</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Hasło</string>
+    <string name="action_sign_in">Logowanie</string>
+    <string name="action_sign_in_short">Logowanie</string>
+    <string name="error_invalid_email">E-mail nieprawdidłowy</string>
+    <string name="error_invalid_password">Hasło za krótkie</string>
+    <string name="error_incorrect_password">Hasło niepoprawne</string>
+    <string name="error_field_required">Pole wymagane</string>
+    <string name="permission_rationale">"Potrzebne do zalogowania."
+    </string>
+    <string name="title_activity_main">Logowanie</string>
+    <string name="login">Logowanie</string>
+    <string name="settings">Ustawienia</string>
+    <string name="title_activity_settings">Ustawienia</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Główne</string>
+
+    <string name="pref_title_social_recommendations">Włącz sociale</string>
+    <string name="pref_description_social_recommendations">Rekomendacje
+    </string>
+
+    <string name="pref_title_display_name">Wyświetlane imie</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Dodaj przyjaciół</string>
+    <string-array name="pref_example_list_titles">
+        <item>Zawsze</item>
+        <item>Kiedy możliwe</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Synchronizacja</string>
+
+    <string name="pref_title_sync_frequency">Częstotliwość</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 godzina</item>
+        <item>3 godzina</item>
+        <item>6 godzina</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">Systemowe ustawienia synchronizacji</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Powiadomienia</string>
+
+    <string name="pref_title_new_message_notifications">Wiadomości powiadomień</string>
+
+    <string name="pref_title_ringtone">Dzwonek</string>
+    <string name="pref_ringtone_silent">Cichy</string>
+
+    <string name="pref_title_vibrate">Wibracje</string>
+    <string name="title_activity_location">Wypożyczalnia</string>
+
+    <string name="navigation_drawer_open">Otwórz nawigację</string>
+    <string name="navigation_drawer_close">Zamknij nawigację</string>
+
+    <string name="action_settings">Ustawienia</string>
+    <string name="dismis">Zamknij</string>
+    <string name="news">Nowości</string>
+    <string name="title_activity_bin">Koszyk</string>
+    <string name="action_bin">Koszyk</string>
+    <string name="lend">Wypożyczone</string>
+    <string name="handed">Oddane</string>
+    <string name="remove_from_cart">Usunięto z koszyka</string>
+    <string name="add_to_cart">Dodano do koszyka</string>
+    <string name="delete">Opróżnij</string>
+    <string name="lendd">Wypożycz</string>
+    <string name="wantlend">Czy chcesz wypożyczyć poniższe książki?</string>
+    <string name="lenddialog">Wypożycz</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="wantdelete">Opróżnić koszyk?</string>
+    <string name="lending">Przyjmujemy żądanie</string>
+    <string name="succes">Otrzymaliśmy polecenie</string>
+    <string name="failure">Wystąpił błąd</string>
+    <string name="title_activity_lend">Historia</string>
+    <string name="inprogres">W toku</string>
+    <string name="canget">Do odebrania</string>
+    <string name="category">Kategorie</string>
+    <string name="title_activity_category">Kategorie</string>
+    <string name="title_activity_categorybooks">Kategorie</string>
+    <string name="back">Powrót</string>
+    <string name="lendedin">Wypożyczono</string>
+    <string name="handedin">Oddano</string>
+    <string name="term">Termin</string>
+    <string name="readytoget">Gotowa do odbioru</string>
+    <string name="publisher">Wydawnictwo</string>
+    <string name="logout">Wyloguj</string>
+    <string name="logoutyes">Wylogowano pomyślnie</string>
+    <string name="notloged">Jesteś niezalogowany</string>
+    <string name="loggedas">Użytkownik</string>
+    <string name="notlogedheader">Nie zalogowany</string>
+    <string name="action_search">Szukaj</string>
+    <string name="title_activity_search">Szukaj</string>
+
+</resources>
