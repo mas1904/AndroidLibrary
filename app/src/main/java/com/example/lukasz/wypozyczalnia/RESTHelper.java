@@ -55,7 +55,7 @@ public class RESTHelper extends AppCompatActivity {
     Context mContext;
 
 
-    private static final String QUERY_URL = "http://192.168.81.1:3000/";
+    private static final String QUERY_URL = "http://192.168.0.251:3000/";
 
     //JSONArray mJsonArray = new JSONArray();
 

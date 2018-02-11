@@ -205,7 +205,7 @@ public class LoginActivity extends AppCompatActivity  {
             SyncHttpClient client = new SyncHttpClient();
             Log.d("xx", "doInBackground: "+mEmail);
 
-            client.get("http://192.168.81.1:3000/"+"user?mail=" + mEmail+"&password="+mPassword,
+            client.get("http://192.168.0.251:3000/"+"user?mail=" + mEmail+"&password="+mPassword,
                     new JsonHttpResponseHandler() {
                         @Override
                         public void onSuccess(int statusCode, Header[] headers, JSONArray array) {

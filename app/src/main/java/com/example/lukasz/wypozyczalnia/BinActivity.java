@@ -70,6 +70,7 @@ public class BinActivity extends BaseActivity{
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
         context = this;
+
         helper = new RESTHelper(getApplicationContext());
 
         inbin = ((StorageApp)getApplicationContext()).getInbin();

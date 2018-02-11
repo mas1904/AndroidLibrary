@@ -149,6 +149,7 @@ public class MainActivity extends BaseActivity {
             public boolean onQueryTextSubmit(String query) {
                 //Here u can get the value "query" which is entered in the search box.
                 Intent next = new Intent(MainActivity.this, SearchActivity.class);
+                Intet()
                 next.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                 next.putExtra("title",query);
                 startActivity(next);

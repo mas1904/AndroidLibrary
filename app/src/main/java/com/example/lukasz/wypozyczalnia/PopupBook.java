@@ -38,6 +38,7 @@ public class PopupBook extends DialogFragment{
     private HashMap bin;
     boolean abin = false;
     private List boo;
+
     public static PopupBook newInstance(int title, final List<BookModel> boo, final BookModel books, final ArrayAdapter adapter, final HashMap bin, boolean abin) {
         PopupBook frag = new PopupBook();
         frag.books = books;
@@ -69,6 +70,7 @@ public class PopupBook extends DialogFragment{
         TextView Publisher = (TextView) rowView.findViewById(R.id.book_publisher);
         TextView Category = (TextView) rowView.findViewById(R.id.book_category);
         TextView ISBN = (TextView) rowView.findViewById(R.id.book_isbn);
+
 
         final View sf = (View) rowView.findViewById(R.id.sf);
         if(bin!=null) {
